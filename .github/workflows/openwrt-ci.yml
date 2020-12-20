@@ -1150,7 +1150,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng=y
           CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils=y
           CONFIG_PACKAGE_luci-app-samba=y
-          CONFIG_PACKAGE_luci-app-samba4=y
           CONFIG_PACKAGE_luci-app-sfe=y
           CONFIG_PACKAGE_luci-app-smartdns=y
           CONFIG_PACKAGE_luci-app-ssr-plus=y
@@ -1221,7 +1220,6 @@ jobs:
           CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-ramfree-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-samba-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-samba4-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-sfe-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-ssr-plus-zh-cn=y
@@ -1402,7 +1400,7 @@ jobs:
           CONFIG_PACKAGE_samba36-server=y
           CONFIG_PACKAGE_SAMBA_MAX_DEBUG_LEVEL=-1
           CONFIG_PACKAGE_samba4-libs=m
-          CONFIG_PACKAGE_samba4-server=y
+          CONFIG_PACKAGE_samba4-server=m
           CONFIG_SAMBA4_SERVER_NETBIOS=y
           CONFIG_SAMBA4_SERVER_AVAHI=y
           CONFIG_SAMBA4_SERVER_VFS=y
